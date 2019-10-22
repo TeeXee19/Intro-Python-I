@@ -5,8 +5,11 @@
 # the sum. This is what you'd consider to be a regular, normal function.
 
 # YOUR CODE HERE
-
-print(f1(1, 2))
+f1 = int(input("Enter your numbers: ").split)
+sum = 0
+for x in f1:
+	sum += x
+print(sum)
 
 # Write a function f2 that takes any number of integer arguments and prints the
 # sum. Google for "python arbitrary arguments" and look for "*args"
