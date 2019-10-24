@@ -23,7 +23,6 @@ import sys
 import calendar
 from datetime import datetime
 
-
 cMonth = datetime.today().month
 cYear = datetime.today().year
 
